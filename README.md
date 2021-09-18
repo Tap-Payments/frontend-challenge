@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    <img src="./tap_logo.svg" width="200" />
+    <img src="assets/logo_black.svg" width="200" />
   </p>
   <p>
     <span style="font-weight:bold">Tap Payments</span> simplifies online payment & acceptance for businesses with an easy, quick & secure experience for people paying on websites & apps.
