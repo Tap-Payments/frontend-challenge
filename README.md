@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    <img src="assets/logo_black.svg" width="200" />
+    <img src="https://dash.b-cdn.net/icons/menu/tap-en-logo.svg" width="300"/>
   </p>
   <p>
     <span style="font-weight:bold">Tap Payments</span> simplifies online payment & acceptance for businesses with an easy, quick & secure experience for people paying on websites & apps.
@@ -29,7 +29,7 @@ To start the test, simply clone this repo and make your edits locally.
 
 For the frontend portion of the test, use the `/frontend` folder. There are 6 features we'd like to add:
 
-1. Create a home page includes two section:
+1. Create a main page includes two section:
 
 <ul>
   <li>user balance which is mean the current balance of the user and to get the user balance you can call <b>GET: </b><code>http:localhost:8000/api/balance</code></li>
@@ -38,17 +38,20 @@ For the frontend portion of the test, use the `/frontend` folder. There are 6 fe
 
 2. The modal/popup that fired by the button should include payment card
    component like <code>Card Name, Card number, Card expiry date, Card
-   CVV</code> and you finally a button named <b>Charge</b>.
+   CVV</code> and you finally a button named <b>Charge 10$</b>.
 
 <ul>
    <li><b>Hint:</b> You need to validate the credit card components and feel free to use any third-party libs.</li>
    <li><b>Hint:</b> You need to name the button like this <code>Charge 10$</code> cuz the amount should be fixed and the user can't add his amount.</li>
 </ul>
 
-3. The user can click on <b>Charge Button</b> only if the credit card date is
-   vaild.
+3. Validate the card component and if the user enter a valid data enable the <code> Charge 10$</code> button
 
-4. You need to submit using this api
+<ul>
+   <li><b>Hint:</b> Show an error under the invalid card component field</li>
+</ul>
+
+4. You need to Submit using this api
    <b>POST:</b><code>http:localhost:8000/api/balance</code><br/>
    <b>body:</b>
 
@@ -60,17 +63,17 @@ For the frontend portion of the test, use the `/frontend` folder. There are 6 fe
    ```
 
 <ul>
-    <li><b>Hint:</b> After getting a success response show a success message or logo with and wait 20s and close the modal/popup.</li>
-    <li><b>Hint:</b> After closing modal/popup the user show see his new balance in the real-time without refreshing the page .</li>
+    <li><b>Hint:</b> After getting a success response show a success message or success image and wait 20s and close the modal/popup.</li>
+    <li><b>Hint:</b> After closing modal/popup the user should see his new balance in the real-time without refreshing the page .</li>
 </ul>
 
-5. Use ant state management(Mobx/Redux) to handle the data in your app.
-6. Use ant Typescript with webpack or use create-react-app.
+5. Use state management(Mobx/Redux) to handle the data in your app.
+6. Use Typescript with webpack or use create-react-app.
 
 NOTE: Please make the frontend app be served on port `:3000`.
 <br>
 NOTE: to run the backend you can run `docker-compose up --build` or go to the
-server folder add run `pm i && npm run start`.
+server folder add run `npm i && npm run start`.
 
 Feel free to structure the code however you prefer and use third-party libraries at your discretion.
 
