@@ -16,6 +16,6 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-### Q) If we have a server include 5 cors it is possible to run the the frontend app on 3 or 4 cors and why ?
+### Q) Iit possible to run mutli task in the same time in javascript? and why?
 
 ### Q) How did you find the test overall? Did you have any issues or have difficulties completing?If you have any suggestions on how we can improve the test, we'd love to hear them
