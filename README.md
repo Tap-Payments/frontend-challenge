@@ -98,7 +98,7 @@ NOTE: We WILL run your code inside these containers.
 ## Submitting Your Code
 
 Once you've completed the test, please compress your files (via zip or tar) and
-and upload it on your drive then share the link with us over the mail.
+and upload it on your drive then share the link with us over the mail `OR` push it to your public repo and share the link with us.
 
 **Do not include node_modules or .git in your submission**
 
