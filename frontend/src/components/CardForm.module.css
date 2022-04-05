@@ -1,0 +1,12 @@
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 10px 0;
+}
+
+.inline {
+  display: flex;
+  gap: 20px;
+}
