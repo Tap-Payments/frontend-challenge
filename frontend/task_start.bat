@@ -1,0 +1,1 @@
+wt cmd /k "yarn run react-scripts start"
